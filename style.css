@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 body, figure, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
@@ -67,4 +68,75 @@ footer {
     background-color: #333;
     color: #fff;
     padding: 10px;
+=======
+
+body, figure, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #6d6d6d;
+    text-decoration: none;
+}
+
+
+.content-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.gallery-item {
+    flex-basis: 300px;
+    display: flex;
+    gap: 10px;
+}
+
+.gallery-item img {
+    width: 300px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.title-box {
+    flex-grow: 1;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+.title-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.title-box p {
+    font-size: 16px;
+    color: #666;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+>>>>>>> c9cea5b833549f8904d6be529a694903097c00fa
 }
